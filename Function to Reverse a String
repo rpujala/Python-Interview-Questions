@@ -1,1 +1,4 @@
-print("hello") 
+def reverse_string(myName):
+  return print(myName[::-1])
+
+reverse_string("Rajiv")
