@@ -1,0 +1,8 @@
+def count_vowels(word):
+  vowels = "aeiouAEIOU"
+
+  return sum(1 for letter in word if letter in vowels)
+
+input_word = "The United States of AMERICA"
+
+count_vowels(input_word)
