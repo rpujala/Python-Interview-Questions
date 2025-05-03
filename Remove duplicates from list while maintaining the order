@@ -1,0 +1,12 @@
+def remove_duplicates(lst):
+  seen = set()
+  results = []
+
+  for item in lst:
+    if item not in seen:
+      seen.add(item)
+      results.append(item)
+
+  return results
+
+remove_duplicates(myList)
